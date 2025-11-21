@@ -10,8 +10,7 @@ by extracting hidden attentions from Mamba layers, enabling visualization of fea
 
 1. [Features](#features)  
 2. [Installation](#installation)  
-   - [Create Conda Environment](#create-conda-environment)  
-   - [Install Dependencies](#install-dependencies)  
+   - [Create Conda Environment and Install Dependencies](#create-conda-environment)  
 3. [Repository Structure](#repository-structure)  
 4. [Datasets & Reproducibility](#datasets--reproducibility)  
 5. [Running BiMba](#running-bimba)  
@@ -39,8 +38,24 @@ We strongly recommend using the provided `environment.yml` file.
 
 ---
 
-### Create Conda Environment
-
-```bash
-conda env create -f environment.yml
+### Create Conda Environment & Install Dependencies
+conda create -n bimba python=3.10
 conda activate bimba
+pip install -r requirements.txt
+
+
+---
+
+### Repository Structure
+BiMba/
+│
+├── network/                 # Vision-Mamba architecture and model code
+├── utils/                   # Helper functions, data loading, preprocessing utilities
+├── data/                    # Lists of training, validation, testing, benchmark sets
+├── data_preparation/        # Feature extraction and preprocessing scripts
+├── test_example/            # Residue scores + example outputs
+│   └── data_preparation/    # Preprocessed feature grids for test examples
+├── notebooks/
+│   └── bimba_test.ipynb     # Notebook for running inference/testing
+├── environment.yml          # Conda environment specification
+└── README.md
