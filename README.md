@@ -74,8 +74,8 @@ Scripts for preprocessing input data can be found at [data_prepare](https://gith
 
 For questions, feedback, or collaborations:
 
-**Azam Shirali**  
-Bioinformatics Research Group (BioRG)  
-Florida International University  
-📧 **ashir018@fiu.edu**
+&nbsp;&nbsp;**Azam Shirali**  
+&nbsp;&nbsp;Bioinformatics Research Group (BioRG)  
+&nbsp;&nbsp;Florida International University  
+&nbsp;&nbsp;📧 **ashir018@fiu.edu**
 
