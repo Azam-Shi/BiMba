@@ -43,9 +43,8 @@ However, the model can also be installed manually.
 You may create and activate the environment using:
 
 ```bash
-conda create -n bimba python=3.10
+conda env create -f environment.yml
 conda activate bimba
-pip install -r requirements.yml
 ```
 ---
 
