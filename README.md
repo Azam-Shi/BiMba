@@ -47,7 +47,6 @@ conda create -n bimba python=3.10
 conda activate bimba
 pip install -r requirements.txt
 ```
-<img width="468" height="634" alt="image" src="https://github.com/user-attachments/assets/2affd71e-f552-4742-b4db-c8dd662c0682" />
 
 ## Running BiMba
 
