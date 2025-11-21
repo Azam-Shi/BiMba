@@ -47,6 +47,7 @@ conda create -n bimba python=3.10
 conda activate bimba
 pip install -r requirements.yml
 ```
+---
 
 ## Running BiMba
 
@@ -62,13 +63,16 @@ pip install -r requirements.yml
 - A complete inference demonstration notebook is available at:  
   👉 [bimba_test.ipynb](https://github.com/Azam-Shi/BiMba/blob/main/bimba_test.ipynb)
 
+---
 
-**Preprocessing Scripts**  
+## Preprocessing Scripts  
 Scripts for preprocessing input data can be found at [data_prepare](https://github.com/Azam-Shi/BiMba/tree/main/data_prepare) directory.  
+
+---
 
 ## Contact
 
-For questions or collaborations:
+For questions, feedback, or collaborations:
 
 **Azam Shirali**  
 Bioinformatics Research Group (BioRG)  
