@@ -62,6 +62,7 @@ pip install -r requirements.yml
   👉 [model](https://github.com/Azam-Shi/BiMba/tree/main/model)
 - A complete inference demonstration notebook is available at:  
   👉 [bimba_test.ipynb](https://github.com/Azam-Shi/BiMba/blob/main/bimba_test.ipynb)
+&nbsp;&nbsp;&nbsp;&nbsp;This notebook can be used to generate residue-level prediction scores (one probability per residue indicating interface or non-interface) for input proteins, which will be saved in the test_results folder.
 
 ---
 
