@@ -51,26 +51,15 @@ pip install -r requirements.yml
 ## Running BiMba
 
 ### Training Example
-An example training script is provided at [bimba_train.py](https://github.com/Azam-Shi/BiMba/tree/main/bimba_train.py). 
-
-Lists of training and validation sets are available in the [data](https://github.com/Azam-Shi/BiMba/tree/main/data) directory.  
-
-
-### Inference Example
-The pretrained model is provided in the [model](https://github.com/Azam-Shi/BiMba/tree/main/model) directory.
-
-## Running BiMba
-
-### Training Example
-- An example training script is available at  
+- An example training script is available at:  
   👉 [bimba_train.py](https://github.com/Azam-Shi/BiMba/blob/main/bimba_train.py)
-- Lists of training and validation sets used in this study are available in  
-  👉 [data/](https://github.com/Azam-Shi/BiMba/tree/main/data)
+- Lists of training and validation sets used in this study are available in:  
+  👉 [data](https://github.com/Azam-Shi/BiMba/tree/main/data)
 
 ### Inference Example
-- Pretrained model weights are provided in  
-  👉 [model/](https://github.com/Azam-Shi/BiMba/tree/main/model)
-- A complete inference demonstration notebook is available at  
+- Pretrained model weights are provided in:  
+  👉 [model](https://github.com/Azam-Shi/BiMba/tree/main/model)
+- A complete inference demonstration notebook is available at:  
   👉 [bimba_test.ipynb](https://github.com/Azam-Shi/BiMba/blob/main/bimba_test.ipynb)
 
 
