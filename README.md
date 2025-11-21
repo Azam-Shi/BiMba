@@ -24,13 +24,10 @@ by extracting hidden attentions from Mamba layers, enabling visualization of fea
 - Interpretability via perturbation-based and gradient-based methods  
 - Hidden attention extraction from Mamba layers  
 
----
 
 ## Installation
 
 We strongly recommend using the provided `environment.yml` file.
-
----
 
 ### Create Conda Environment & Install Dependencies
 conda create -n bimba python=3.10
@@ -40,11 +37,8 @@ conda activate bimba
 pip install -r requirements.txt
 
 
----
-
 ## Running BiMba
 
----
 
 ### Training Example
 
@@ -56,12 +50,10 @@ Lists of training and validation sets are available in the [data](https://github
 ### Inference Example
 
 The pretrained model is provided in the [savedModels](https://github.com/Azam-Shi/PuMba/tree/main/savedModels) directory.  
- 
----
+
 **Preprocessing Scripts**  
 Scripts for preprocessing input data can be found at [data_prepare](https://github.com/Azam-Shi/PuMba/tree/main/data_prepare) directory.  
 
----
 
 **Training Example**  
 An example training script is provided at [PuMba_training.py](https://github.com/Azam-Shi/PuMba/blob/main/PuMba_training.py). 
