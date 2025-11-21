@@ -4,7 +4,6 @@
 Accurately identifying protein binding sites is a central challenge in structural biology. Binding sites on protein surfaces, consisting of groups of residues, govern how proteins recognize and interact with their partners; therefore, identifying them is essential for understanding biological function and for guiding the design of effective drugs and biomolecules. Despite major progress in computational approaches, their performance remains limited because most models underrepresent the combined influence of surface properties and residue-level information, leaving room for improvement. Here, we introduce BiMba, a state-space–driven deep learning framework that leverages the efficient long-range modeling capability of the Vision Mamba architecture to learn from 3D protein surfaces represented as 2D physicochemical grids. BiMba integrates multiple complementary sources of information, capturing both geometric and physicochemical determinants of molecular recognition into surface patches, which are encoded into 2D images after adding additional residue-level descriptors such as polarity and secondary structure, yielding a unified representation that couples spatial topology with biochemical context. BiMba demonstrates superior performance across diverse and specialized benchmark datasets, surpassing existing state-of-the-art methods. In addition, BiMba incorporates perturbation-based and gradient-based interpretability analyses
 by extracting hidden attentions from Mamba layers, enabling visualization of feature relevance and biologically meaningful residue clusters. Overall, our findings establish state-space models as efficient, interpretable, and scalable architectures for molecular surface learning, advancing the application of deep learning in structural bioinformatics.
 
----
 
 ## Table of Contents
 
@@ -16,8 +15,6 @@ by extracting hidden attentions from Mamba layers, enabling visualization of fea
    - [Inference Example](#example-inference)  
 4. [Preprocessing Scripts](#Preprocessing-Scripts)
 5. [Contact](#contact)
-
----
 
 ## Features
 
