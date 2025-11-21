@@ -24,6 +24,10 @@ by extracting hidden attentions from Mamba layers, enabling visualization of fea
 - Interpretability via perturbation-based and gradient-based methods  
 - Hidden attention extraction from Mamba layers  
 
+**Comprehensive review:**
+<div align="center">
+<img src="https://github.com/JimengShi/AI-Models-Weather-and-Climate/blob/main/figs/review.jpg" alt="review" width="800"/> 
+</div>
 
 ## Installation
 
