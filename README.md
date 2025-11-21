@@ -9,7 +9,7 @@ by extracting hidden attentions from Mamba layers, enabling visualization of fea
 
 1. [Features](#features)  
 2. [Installation](#installation)  
-   - [Create Conda Environment and Install Dependencies](#create-conda-environment)  
+   - [Create Conda Environment & Install Dependencies](#create-conda-environment)  
 3. [Running BiMba](#running-bimba)  
    - [Training Example](#testing)  
    - [Inference Example](#example-inference)  
