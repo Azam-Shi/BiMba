@@ -29,8 +29,6 @@ by extracting hidden attentions from Mamba layers, enabling visualization of fea
 - Integration of geometric + residue-level descriptors  
 - Interpretability via perturbation-based and gradient-based methods  
 - Hidden attention extraction from Mamba layers  
-- Superior performance on MaSIF-site, dMaSIF, CAPRI benchmarks  
-- Fully reproducible datasets and preprocessing
 
 ---
 
