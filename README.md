@@ -24,7 +24,7 @@ BiMba achieves superior performance across diverse and specialized benchmark dat
 
 ## Features
 
-&nbsp;&nbsp;&nbsp;• Vision-Mamba architecture for efficient long-range modeling  
+&nbsp;&nbsp;&nbsp;&nbsp;• Vision-Mamba architecture for efficient long-range modeling  
 &nbsp;&nbsp;&nbsp;&nbsp;• Unified 2D physicochemical surface-patch representation  
 &nbsp;&nbsp;&nbsp;&nbsp;• Integration of geometric and residue-level descriptors  
 &nbsp;&nbsp;&nbsp;&nbsp;• Interpretability via perturbation-based and gradient-based analyses  
@@ -58,6 +58,21 @@ Lists of training and validation sets are available in the [data](https://github
 
 ### Inference Example
 The pretrained model is provided in the [model](https://github.com/Azam-Shi/BiMba/tree/main/model) directory.
+
+## Running BiMba
+
+### Training Example
+- An example training script is available at  
+  👉 [bimba_train.py](https://github.com/Azam-Shi/BiMba/blob/main/bimba_train.py)
+- Lists of training and validation sets used in this study are available in  
+  👉 [data/](https://github.com/Azam-Shi/BiMba/tree/main/data)
+
+### Inference Example
+- Pretrained model weights are provided in  
+  👉 [model/](https://github.com/Azam-Shi/BiMba/tree/main/model)
+- A complete inference demonstration notebook is available at  
+  👉 [bimba_test.ipynb](https://github.com/Azam-Shi/BiMba/blob/main/bimba_test.ipynb)
+
 
 A testing example is provided at [bimba_test.ipynb](https://github.com/Azam-Shi/BiMba/tree/main/bimba_test.ipynb). 
 
