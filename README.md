@@ -45,8 +45,9 @@ You may create and activate the environment using:
 ```bash
 conda create -n bimba python=3.10
 conda activate bimba
-
 pip install -r requirements.txt
+
+<img width="468" height="634" alt="image" src="https://github.com/user-attachments/assets/2affd71e-f552-4742-b4db-c8dd662c0682" />
 
 
 ## Running BiMba
@@ -65,5 +66,4 @@ A testing example is provided at [bimba_test.ipynb](https://github.com/Azam-Shi/
 **Preprocessing Scripts**  
 Scripts for preprocessing input data can be found at [data_prepare](https://github.com/Azam-Shi/BiMba/tree/main/data_prepare) directory.  
 
-<img width="468" height="634" alt="image" src="https://github.com/user-attachments/assets/2affd71e-f552-4742-b4db-c8dd662c0682" />
 
