@@ -54,7 +54,7 @@ pip install -r requirements.yml
 ### Training Example
 - An example training script is available at:  
   👉 [bimba_train.py](https://github.com/Azam-Shi/BiMba/blob/main/bimba_train.py)
-- Lists of training and validation sets used in this study are available in:  
+- Lists of training and testing sets used in this study are available in:  
   👉 [data](https://github.com/Azam-Shi/BiMba/tree/main/data)
 
 ### Inference Example
