@@ -66,4 +66,12 @@ pip install -r requirements.yml
 **Preprocessing Scripts**  
 Scripts for preprocessing input data can be found at [data_prepare](https://github.com/Azam-Shi/BiMba/tree/main/data_prepare) directory.  
 
+## Contact
+
+For questions or collaborations:
+
+**Azam Shirali**  
+Bioinformatics Research Group (BioRG)  
+Florida International University  
+📧 **ashir018@fiu.edu**
 
