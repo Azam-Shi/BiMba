@@ -11,14 +11,11 @@ by extracting hidden attentions from Mamba layers, enabling visualization of fea
 1. [Features](#features)  
 2. [Installation](#installation)  
    - [Create Conda Environment and Install Dependencies](#create-conda-environment)  
-3. [Repository Structure](#repository-structure)  
-4. [Datasets & Reproducibility](#datasets--reproducibility)  
-5. [Running BiMba](#running-bimba)  
-   - [Testing](#testing)  
-   - [Example Inference](#example-inference)  
-6. [Preprocessed Features](#preprocessed-features)  
-7. [Citation](#citation)  
-8. [Contact](#contact)
+3. [Running BiMba](#running-bimba)  
+   - [Training Example](#testing)  
+   - [Inference Example](#example-inference)  
+4. [Preprocessing Scripts](#Preprocessing Scripts)
+5. [Contact](#contact)
 
 ---
 
@@ -46,16 +43,26 @@ pip install -r requirements.txt
 
 ---
 
-### Repository Structure
-BiMba/
-│
-├── network/                 # Vision-Mamba architecture and model code
-├── utils/                   # Helper functions, data loading, preprocessing utilities
-├── data/                    # Lists of training, validation, testing, benchmark sets
-├── data_preparation/        # Feature extraction and preprocessing scripts
-├── test_example/            # Residue scores + example outputs
-│   └── data_preparation/    # Preprocessed feature grids for test examples
-├── notebooks/
-│   └── bimba_test.ipynb     # Notebook for running inference/testing
-├── environment.yml          # Conda environment specification
-└── README.md
+## Running BiMba
+
+---
+
+### Training Example
+
+The pretrained model is provided in the [savedModels](https://github.com/Azam-Shi/BiMba/tree/main/model) directory.  
+Lists of training and validation sets are available in the [data](https://github.com/Azam-Shi/PuMba/tree/main/data) directory.  
+
+---https://github.com/Azam-Shi/BiMba/edit/main/README.md
+
+### Inference Example
+
+The pretrained model is provided in the [savedModels](https://github.com/Azam-Shi/PuMba/tree/main/savedModels) directory.  
+ 
+---
+**Preprocessing Scripts**  
+Scripts for preprocessing input data can be found at [data_prepare](https://github.com/Azam-Shi/PuMba/tree/main/data_prepare) directory.  
+
+---
+
+**Training Example**  
+An example training script is provided at [PuMba_training.py](https://github.com/Azam-Shi/PuMba/blob/main/PuMba_training.py). 
