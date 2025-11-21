@@ -3,9 +3,9 @@
  
 Accurately identifying protein binding sites is a central challenge in structural biology. Binding sites on protein surfaces—consisting of groups of interacting residues—govern how proteins recognize and interact with their partners; therefore, identifying them is essential for understanding biological function and for guiding the design of effective drugs and biomolecules. Despite major progress in computational approaches, their performance remains limited because most models underrepresent the combined influence of surface properties and residue-level physicochemical information. 
 
-Here, we introduce **BiMba**, a state-space–driven deep learning framework that leverages the efficient long-range modeling capability of the **Vision Mamba** architecture to learn from 3D protein surfaces represented as **2D physicochemical grids**. BiMba integrates multiple complementary sources of information—capturing geometric and physicochemical determinants of molecular recognition—into 2D surface patches enriched with residue-level descriptors such as polarity and secondary structure. This unified representation couples spatial topology with biochemical context.
+Here, we introduce **BiMba**, a state-space–driven deep learning framework that leverages the efficient long-range modeling capability of the **Vision Mamba** architecture to learn from 3D protein surfaces represented as **2D physicochemical grids**. **BiMba** integrates multiple complementary sources of information—capturing geometric and physicochemical determinants of molecular recognition—into 2D surface patches enriched with residue-level descriptors such as polarity and secondary structure. This unified representation couples spatial topology with biochemical context.
 
-BiMba achieves superior performance across diverse and specialized benchmark datasets, surpassing existing state-of-the-art methods. In addition, BiMba incorporates perturbation-based and gradient-based interpretability analyses by extracting hidden attentions from Mamba layers, enabling visualization of feature relevance and biologically meaningful residue clusters. Overall, our findings establish state-space models as efficient, interpretable, and scalable architectures for molecular surface learning, advancing deep learning applications in structural bioinformatics.
+**BiMba** achieves superior performance across diverse and specialized benchmark datasets, surpassing existing state-of-the-art methods. In addition, **BiMba** incorporates perturbation-based and gradient-based interpretability analyses by extracting hidden attentions from Mamba layers, enabling visualization of feature relevance and biologically meaningful residue clusters. Overall, our findings establish state-space models as efficient, interpretable, and scalable architectures for molecular surface learning, advancing deep learning applications in structural bioinformatics.
 
 ---
 
@@ -74,8 +74,8 @@ Scripts for preprocessing input data can be found at [data_prepare](https://gith
 
 For questions, feedback, or collaborations:
 
-&nbsp;&nbsp;**Azam Shirali**  
-&nbsp;&nbsp;Bioinformatics Research Group (BioRG)  
-&nbsp;&nbsp;Florida International University  
-&nbsp;&nbsp;📧 **ashir018@fiu.edu**
+&nbsp;&nbsp;&nbsp;&nbsp;**Azam Shirali**  
+&nbsp;&nbsp;&nbsp;&nbsp;Bioinformatics Research Group (BioRG)  
+&nbsp;&nbsp;&nbsp;&nbsp;Florida International University  
+&nbsp;&nbsp;&nbsp;&nbsp;📧 **ashir018@fiu.edu**
 
