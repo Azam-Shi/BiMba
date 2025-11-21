@@ -40,13 +40,15 @@ pip install -r requirements.txt
 ## Running BiMba
 
 ### Training Example
-An example training script is provided at [PuMba_training.py](https://github.com/Azam-Shi/BiMba/tree/main/bimba_train.py). 
+An example training script is provided at [bimba_train.py](https://github.com/Azam-Shi/BiMba/tree/main/bimba_train.py). 
+
 Lists of training and validation sets are available in the [data](https://github.com/Azam-Shi/BiMba/tree/main/data) directory.  
 
 
 ### Inference Example
 The pretrained model is provided in the [model](https://github.com/Azam-Shi/BiMba/tree/main/model) directory.
-A testing example is provided at [PuMba_training.py](https://github.com/Azam-Shi/BiMba/tree/main/bimba_test.ipynb). 
+
+A testing example is provided at [bimba_test.ipynb](https://github.com/Azam-Shi/BiMba/tree/main/bimba_test.ipynb). 
 
 **Preprocessing Scripts**  
 Scripts for preprocessing input data can be found at [data_prepare](https://github.com/Azam-Shi/BiMba/tree/main/data_prepare) directory.  
