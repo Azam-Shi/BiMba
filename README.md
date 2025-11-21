@@ -24,7 +24,7 @@ BiMba achieves superior performance across diverse and specialized benchmark dat
 
 ## Features
 
-&nbsp;&nbsp;&nbsp;&nbsp;• Vision-Mamba architecture for efficient long-range modeling  
+&nbsp;&nbsp;&nbsp;• Vision-Mamba architecture for efficient long-range modeling  
 &nbsp;&nbsp;&nbsp;&nbsp;• Unified 2D physicochemical surface-patch representation  
 &nbsp;&nbsp;&nbsp;&nbsp;• Integration of geometric and residue-level descriptors  
 &nbsp;&nbsp;&nbsp;&nbsp;• Interpretability via perturbation-based and gradient-based analyses  
