@@ -44,7 +44,7 @@ You may create and activate the environment using:
 
 ```bash
 conda env create -f environment.yml
-conda activate bimba
+conda activate bimba_site
 ```
 ---
 
