@@ -29,7 +29,7 @@ Here, we introduce **BiMba**, a state-space–driven deep learning framework tha
 &nbsp;&nbsp;&nbsp;&nbsp;• Integration of geometric and residue-level descriptors  
 &nbsp;&nbsp;&nbsp;&nbsp;• Interpretability via perturbation-based and gradient-based analyses  
 &nbsp;&nbsp;&nbsp;&nbsp;• Extraction of hidden Mamba attentions  
-&nbsp;&nbsp;&nbsp;&nbsp;• Designed for protein surface learning and interface prediction  
+&nbsp;&nbsp;&nbsp;&nbsp;• Designed for protein surface learning and binding site prediction  
 
 ---
 
