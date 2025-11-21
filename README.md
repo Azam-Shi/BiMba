@@ -63,8 +63,6 @@ pip install -r requirements.yml
   👉 [bimba_test.ipynb](https://github.com/Azam-Shi/BiMba/blob/main/bimba_test.ipynb)
 
 
-A testing example is provided at [bimba_test.ipynb](https://github.com/Azam-Shi/BiMba/tree/main/bimba_test.ipynb). 
-
 **Preprocessing Scripts**  
 Scripts for preprocessing input data can be found at [data_prepare](https://github.com/Azam-Shi/BiMba/tree/main/data_prepare) directory.  
 
