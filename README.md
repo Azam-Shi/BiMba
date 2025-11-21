@@ -24,10 +24,6 @@ by extracting hidden attentions from Mamba layers, enabling visualization of fea
 - Interpretability via perturbation-based and gradient-based methods  
 - Hidden attention extraction from Mamba layers  
 
-**Comprehensive review:**
-<div align="center">
-<img src="https://github.com/JimengShi/AI-Models-Weather-and-Climate/blob/main/figs/review.jpg" alt="review" width="800"/> 
-</div>
 
 ## Installation
 
@@ -43,21 +39,15 @@ pip install -r requirements.txt
 
 ## Running BiMba
 
-
 ### Training Example
+An example training script is provided at [PuMba_training.py](https://github.com/Azam-Shi/BiMba/tree/main/bimba_train.py). 
+Lists of training and validation sets are available in the [data](https://github.com/Azam-Shi/BiMba/tree/main/data) directory.  
 
-The pretrained model is provided in the [model](https://github.com/Azam-Shi/BiMba/tree/main/model) directory.  
-Lists of training and validation sets are available in the [data](https://github.com/Azam-Shi/PuMba/tree/main/data) directory.  
-
----https://github.com/Azam-Shi/BiMba/edit/main/README.md
 
 ### Inference Example
-
-The pretrained model is provided in the [savedModels](https://github.com/Azam-Shi/PuMba/tree/main/savedModels) directory.  
+The pretrained model is provided in the [model](https://github.com/Azam-Shi/BiMba/tree/main/model) directory.
+A testing example is provided at [PuMba_training.py](https://github.com/Azam-Shi/BiMba/tree/main/bimba_test.ipynb). 
 
 **Preprocessing Scripts**  
-Scripts for preprocessing input data can be found at [data_prepare](https://github.com/Azam-Shi/PuMba/tree/main/data_prepare) directory.  
+Scripts for preprocessing input data can be found at [data_prepare](https://github.com/Azam-Shi/BiMba/tree/main/data_prepare) directory.  
 
-
-**Training Example**  
-An example training script is provided at [PuMba_training.py](https://github.com/Azam-Shi/PuMba/blob/main/PuMba_training.py). 
