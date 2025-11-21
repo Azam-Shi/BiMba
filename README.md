@@ -14,7 +14,7 @@ by extracting hidden attentions from Mamba layers, enabling visualization of fea
 3. [Running BiMba](#running-bimba)  
    - [Training Example](#testing)  
    - [Inference Example](#example-inference)  
-4. [Preprocessing Scripts](#Preprocessing Scripts)
+4. [Preprocessing Scripts](#Preprocessing-Scripts)
 5. [Contact](#contact)
 
 ---
@@ -37,7 +37,9 @@ We strongly recommend using the provided `environment.yml` file.
 
 ### Create Conda Environment & Install Dependencies
 conda create -n bimba python=3.10
+
 conda activate bimba
+
 pip install -r requirements.txt
 
 
@@ -49,7 +51,7 @@ pip install -r requirements.txt
 
 ### Training Example
 
-The pretrained model is provided in the [savedModels](https://github.com/Azam-Shi/BiMba/tree/main/model) directory.  
+The pretrained model is provided in the [model](https://github.com/Azam-Shi/BiMba/tree/main/model) directory.  
 Lists of training and validation sets are available in the [data](https://github.com/Azam-Shi/PuMba/tree/main/data) directory.  
 
 ---https://github.com/Azam-Shi/BiMba/edit/main/README.md
